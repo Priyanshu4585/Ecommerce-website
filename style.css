@@ -140,6 +140,26 @@ justify-content: center;
 display: none;
 }
 
+#la-bag i{
+  position: relative;
+}
+
+#lg-bag span{
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  z-index: 99;
+}
 
 /* hero section */
 
@@ -1033,6 +1053,25 @@ border: 1px solid #e2e9e1;
     transition: 0.3s;
   }
 
+  #mobile a i{
+  position: relative;
+}
+  
+#cartNo1{
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+}
   #navbar.active{
     right: 0px;
   }
