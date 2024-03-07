@@ -78,7 +78,7 @@ button.white {
   }
 
 body {
-  width: 100%;
+min-width: fit-content;
 }
 
 /* header */
